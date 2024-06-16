@@ -41,7 +41,7 @@ SELECT
         WHEN Discount BETWEEN 0.2 AND 0.3 THEN '20-30%'
         WHEN Discount BETWEEN 0.3 AND 0.4 THEN '30-40%'
         WHEN Discount BETWEEN 0.4 AND 0.5 THEN '40-50%'
-		WHEN Discount BETWEEN 0.5 AND 0.6 THEN '50-60%'
+	WHEN Discount BETWEEN 0.5 AND 0.6 THEN '50-60%'
         WHEN Discount BETWEEN 0.6 AND 0.7 THEN '60-70%'
         ELSE '70% and above'
     END AS Discount_Range,
