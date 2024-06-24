@@ -17,7 +17,7 @@ GROUP BY Segment, Region
 ORDER BY Segment, Region;
 
 /* Q3:PRODUCTS WITH NO PROFIT
-Write a query to find all products where the profit is zero or negative */
+-Write a query to find all products where the profit is zero or negative */
 SELECT Product_ID, Product_Name, Sales, 
 	   Quantity, Discount, Profit
 FROM sales_report
